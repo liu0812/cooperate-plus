@@ -1,0 +1,8 @@
+Welcome to use mental arithmetic exercises every day!
+Enter "e" to stop.
+Description: divide two decimal places, in order to enter the numerator and denominator fractions separated by a space. Division '¡Â',Fractional line '/'.
+Correct£¡
+Error!
+Number of correct answers:
+Number of wrong answers:
+Where there is a will, there is a way.

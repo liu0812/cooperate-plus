@@ -1,0 +1,8 @@
+Bienvenue au calcul de calcul mental tous les jours!
+L'entr¨¦e "E" pour arr¨ºter.
+Note: la Division avec deux d¨¦cimales, fraction de fonctionnement d'entr¨¦e s¨¦quentiellement le num¨¦rateur et d¨¦nominateur s¨¦par¨¦es par un espace.La Division est '¡Â', la fraction "/".
+Correct!
+Erreur!
+Le nombre exact:
+Sujet un nombre d'erreurs:
+O¨´ il va, il est dehors!

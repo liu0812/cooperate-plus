@@ -5,49 +5,7 @@ using namespace std;
 #include "Problem.h"
 #include <time.h>
 
-void Problem::SelectLanguage()
-{
-	char str[1000][55] = { 0 };
-	ifstream is("LanguageList.txt");
-	int fnum = 0;
-	char buf[49];
-	for (int i = 0; !is.eof(); i++)
-	{
-		is.getline(buf, 49);
-		if (strlen(buf) > 1)
-		{
-			strcpy(str[fnum], buf);
-			fnum++;
-		}
-	}
-	cout << "请选择语言：" << endl;
-	for (int i = 0; i < fnum; i++)
-	{
-		cout << i + 1 << "\t";
-		cout << str[i] << endl;
-	}
-	cout << "我选择：";
-	is.close();
 
-	int choose;
-	cin >> choose;
-	choose--;
-	strcat(str[choose], ".txt");
-	is.open(str[choose]);
-	if (is.is_open())
-	{
-		is.getline(welcome, 508);
-		is.getline(tip1, 508); 
-		is.getline(tip2, 1020);
-		is.getline(correct, 508);
-		is.getline(wrong, 508); 
-		is.getline(correctNum, 508);
-		is.getline(wrongNum, 508);
-		is.getline(encourage, 508);
-	}
-	is.close();
-	system("cls"); 
-}
 
 void Problem::ShowTip()
 {
